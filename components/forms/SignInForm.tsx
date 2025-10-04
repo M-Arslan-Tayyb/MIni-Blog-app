@@ -38,7 +38,7 @@ export default function SigninForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-6 min-w-md mx-auto bg-white p-6 rounded-lg shadow"
+      className="space-y-6 md:min-w-md w-[25rem] mx-auto bg-white p-6 rounded-lg shadow"
     >
       <h1 className="text-2xl font-semibold text-center">Sign In</h1>
 
